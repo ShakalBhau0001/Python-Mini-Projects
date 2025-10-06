@@ -1,0 +1,8 @@
+pip install pyttsx3
+pip install pywhatkit
+pip install pyjokes
+pip install pyaudio
+pip install requests
+pip install Wikipedia
+pip install Pillow
+pip install SpeechRecognition
