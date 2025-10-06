@@ -33,7 +33,7 @@ Comes with a **beautiful Tkinter GUI** to make interaction smoother 💕.
 ```
 Alexa-Voice-Assistant/
 │── alexa_app.py        # Main application code
-│── micro.png             # Microphone button image
+│── micro.png           # Microphone button image
 │── requirements.txt    # Python dependencies
 │── README.md           # Project documentation
 ```
