@@ -84,7 +84,6 @@ git clone https://github.com/ShakalBhau0001/Python-Mini-Projects.git
 
 2. **Navigate to a project folder**
 ```bash
-cd Python-Mini-Projects/Project-Name
 cd Python-Mini-Projects/Alexa-Voice-Assistant
 ```
 
@@ -95,7 +94,6 @@ pip install -r requirements.txt
 
 4. **Run the project**
 ```bash
-python project_file.py
 python alexa_app.py
 ```
 
