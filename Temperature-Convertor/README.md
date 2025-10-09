@@ -17,6 +17,7 @@ This project is beginner-friendly and runs directly in the terminal.
 
 ```
 Temperature-Convertor/
+|
 │── temperature_convertor.py        # Main application code
 │── README.md                       # Project documentation
 ```
