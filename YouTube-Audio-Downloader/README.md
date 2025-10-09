@@ -17,6 +17,7 @@ This tool allows you to download both **videos** 🎬 and **audio (MP3)** 🎵 d
 ## 📂 Project Structure
 ```
 YouTube-Audio-Downloader/
+|
 │── audio_downloader.py     # Main program file
 │── README.md               # Project documentation
 ```
