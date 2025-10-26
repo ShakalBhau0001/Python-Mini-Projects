@@ -8,6 +8,7 @@ Welcome to **Python Mini Projects**, a collection of small yet practical Python 
 
 ```
 Python-Mini-Projects/
+│
 │── Alexa-Voice-Assistant/
 │   │── alexa_app.py             # Main application code
 │   │── micro.png                # Microphone button image
@@ -32,6 +33,10 @@ Python-Mini-Projects/
 │
 │── YouTube-Video-Downloader/
 │   │── video_downloader.py      # Main application code
+│   │── README.md                # Project documentation
+│
+│── Txt-To-PDF-Generator/
+│   │── txt_to_pdf_generator.py  # Main application
 │   │── README.md                # Project documentation
 │
 │── README.md                    # Main repo documentation
@@ -73,6 +78,10 @@ Download full YouTube videos for offline viewing.
 Download YouTube videos in best available quality.
 **File:** `video_downloader.py`
 
+### 7. Txt to PDF Generator 📄
+Convert plain `.TXT` files into beautifully formatted **PDF documents** with automatic **Table of Contents** and **page numbering**. 
+**File:** `txt_to_pdf_generator.py`
+
 ---
 
 ## Getting Started
@@ -101,4 +110,4 @@ python alexa_app.py
 
 ## 💡 Author
 
-Made with ❤️ by ShakalBhau0001
+Made with ❤️ by **_ShakalBhau0001_**
