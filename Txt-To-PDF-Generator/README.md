@@ -35,6 +35,8 @@ Install the required library using pip:
 
 ```bash
 pip install reportlab
+pip install pypdf
+pip install PyPDF2
 ```
 
 ---
