@@ -23,6 +23,10 @@ Python-Mini-Projects/
 │   │── simple_calculator.py     # Main application
 │   │── README.md                # Project documentation
 │
+│── Scientific-Calculator/
+│   │── scientific_calculator.py # Main application
+│   │── README.md                # Project documentation
+│
 │── Temperature-Convertor/
 │   │── temperature_convertor.py # Main application code
 │   │── README.md                # Project documentation
@@ -63,22 +67,27 @@ A basic Python calculator supporting addition, subtraction, multiplication, and 
 A GUI calculator with clean interface supporting basic arithmetic operations.
 **File:** `simple_calculator.py`
 
-### 4. Temperature Convertor 🌡️
+### 4. Scientific Calculator 🧮
+A modern, theme-switchable **Scientific Calculator** built using **Python’s Tkinter** library.  
+It supports trigonometric functions, logarithms, square roots, powers, and memory operations with a toggleable light/dark mode interface.
+**File:** `scientific_calculator.py`
+
+### 5. Temperature Convertor 🌡️
 Convert temperatures between Celsius and Fahrenheit easily.
 Converts Fahrenheit ↔️ Celsius with user input in console.
 **File:** `temperature_convertor.py`
 
-### 5. YouTube Audio Downloader 🎵
+### 6. YouTube Audio Downloader 🎵
 Download audio from YouTube videos in high quality. 
 Download audio (MP3) from YouTube using yt-dlp.
 **File:** `audio_downloader.py`
 
-### 6. YouTube Video Downloader 🎥
+### 7. YouTube Video Downloader 🎥
 Download full YouTube videos for offline viewing.
 Download YouTube videos in best available quality.
 **File:** `video_downloader.py`
 
-### 7. Txt to PDF Generator 📄
+### 8. Txt to PDF Generator 📄
 Convert plain `.TXT` files into beautifully formatted **PDF documents** with automatic **Table of Contents** and **page numbering**. 
 **File:** `txt_to_pdf_generator.py`
 
@@ -105,6 +114,17 @@ pip install -r requirements.txt
 ```bash
 python alexa_app.py
 ```
+
+---
+
+## 🧰 Technologies Used
+
+- **Python 3.8+**
+- **Tkinter** (GUI Applications)
+- **yt-dlp** (for YouTube downloaders)
+- **ReportLab** (for PDF generation)
+- **SpeechRecognition** & **PyAudio** (for Alexa Voice Assistant)
+- **Math & OS Libraries** (core logic utilities)
 
 ---
 
