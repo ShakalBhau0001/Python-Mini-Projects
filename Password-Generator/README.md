@@ -40,7 +40,7 @@ Password-Generator/
    ```
 2. Navigate to the project folder:
    ```bash
-   cd Python-Mini-Projects/Password-Generator
+   cd Password-Generator
    ```
 3. Run the script:
    ```bash
