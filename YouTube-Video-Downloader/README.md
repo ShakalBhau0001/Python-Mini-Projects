@@ -23,26 +23,26 @@ YouTube-Video-Downloader/
 
 ---
 
+## 🚀 How to Run
 
-## 🛠️ Requirements
-Make sure you have the following installed:
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ShakalBhau0001/Python-Mini-Projects.git
+cd YouTube-Video-Downloader
+```
+
+### 2. Install Dependencies
 
 ```bash
 pip install yt-dlp
 ```
 
----
-
-## 📂 How to Run
-
-1. Clone the repository or copy this project to your local machine.
-2. Install the required dependency (`yt-dlp`).
-3. Run the script:
+3. Run the script:  
 
 ```bash
 python video_downloader.py
 ```
-
 4. Enter a valid YouTube URL in the input box and click **Download**.
 
 ---
