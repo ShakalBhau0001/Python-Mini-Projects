@@ -25,11 +25,6 @@ YouTube-Audio-Downloader/
 ---
 
 ## 🛠️ Requirements
-Make sure you have the following installed:
-
-```bash
-pip install yt-dlp
-```
 
 ⚡ For **audio extraction (MP3)**, you also need **FFmpeg**:  
 - [Download FFmpeg](https://ffmpeg.org/download.html)  
@@ -38,9 +33,21 @@ pip install yt-dlp
 ---
 
 ## 🚀 How to Run
-1. Clone the repository or copy this project to your local machine.  
-2. Install the required dependency (`yt-dlp`).  
-3. (Optional) Install **FFmpeg** for audio conversion.  
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ShakalBhau0001/Python-Mini-Projects.git
+cd YouTube-Audio-Downloader
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install yt-dlp
+```
+
+3. Install **FFmpeg** for audio conversion.  
 4. Run the script:  
 
 ```bash
@@ -53,7 +60,7 @@ python audio_downloader.py
 ---
 
 ## ⚠️ Disclaimer
-This tool is for **educational purposes only**. Download content only if you have the rights or permission.  
+This tool is for **Educational Purposes Only**. Download content only if you have the rights or permission.  
 
 ---
 
