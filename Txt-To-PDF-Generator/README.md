@@ -44,19 +44,20 @@ pip install PyPDF2
 ## 🚀 Usage
 
 1. Clone or download this repository:
+
    ```bash
    git clone https://github.com/ShakalBhau0001/Python-Mini-Projects.git
    cd Txt-To-PDF-Generator
-
-
+   
    ```
 
 2. Run the Python script:
+
    ```bash
-   python pdf-convertor.py
+   python txt_to_pdf_generator.py
    ```
 
-3. A GUI window will open — click **“Select .TXT & Generate PDF”**  
+4. A GUI window will open — click **“Select .TXT & Generate PDF”**  
    Choose any `.txt` file and the app will create a **formatted PDF** in the same directory.
 
 ---
@@ -74,7 +75,6 @@ pip install PyPDF2
 ## 🧑‍💻 Author
 
 **👤 ShakalBhau0001**  
-📬 [Profile](https://github.com/ShakalBhau0001)
 
 ---
 
