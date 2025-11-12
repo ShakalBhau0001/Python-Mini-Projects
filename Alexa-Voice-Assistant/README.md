@@ -45,7 +45,7 @@ Alexa-Voice-Assistant/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ShakalBhau0001/Alexa-Voice-Assistant.git
+git clone https://github.com/ShakalBhau0001/Python-Mini-Projects.git
 cd Alexa-Voice-Assistant
 ```
 
