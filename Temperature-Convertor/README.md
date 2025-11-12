@@ -53,8 +53,16 @@ Python 3.x
 ```
 
 ---
+## 🛠️ Installation & Setup
 
-## ▶️ Run the Program
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ShakalBhau0001/Python-Mini-Projects.git
+cd Temperature-Convertor
+```
+
+### 2. Run the App
 
 ```bash
 python temperature_converter.py
