@@ -27,7 +27,7 @@ This project ensures **security** by using the `secrets` module instead of the `
 Password-Generator/
 │
 ├── password_generator.py   # Main application
-├── README.md               # Project documentation
+└── README.md               # Project documentation
 ```
 
 ---
