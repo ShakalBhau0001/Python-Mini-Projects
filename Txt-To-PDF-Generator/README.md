@@ -1,7 +1,6 @@
 # 📄 PDF Convertor — TXT to PDF with Table of Contents
 
 A simple yet elegant GUI tool to **convert any `.TXT` file into a well-formatted PDF** (with a **Table of Contents**) using **Python, Tkinter, and ReportLab**.  
-Built with ❤️ by **[ShakalBhau0001](https://github.com/ShakalBhau0001)**
 
 ---
 
@@ -22,7 +21,7 @@ Built with ❤️ by **[ShakalBhau0001](https://github.com/ShakalBhau0001)**
 Txt-To-PDF-Generator/
 │
 ├── txt_to_pdf_generator.py   # Main application
-├── README.md                 # Project documentation
+└── README.md                 # Project documentation
 ```
 
 ---
@@ -74,7 +73,7 @@ pip install PyPDF2
 
 ## 🧑‍💻 Author
 
-**👤 ShakalBhau0001**  
+Built with ❤️ by **[ShakalBhau0001](https://github.com/ShakalBhau0001)** 
 
 ---
 
