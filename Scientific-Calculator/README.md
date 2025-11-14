@@ -30,7 +30,7 @@ operations** with a responsive and intuitive interface.
 Scientific-Calculator/
 │
 ├── scientific_calculator.py    # Main application
-├── README.md                   # Project documentation
+└── README.md                   # Project documentation
 ```
 
 ------------------------------------------------------------------------
