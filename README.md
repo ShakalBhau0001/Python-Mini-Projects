@@ -9,41 +9,41 @@ Welcome to **Python Mini Projects**, a collection of small yet practical Python 
 ```
 Python-Mini-Projects/
 │
-│── Alexa-Voice-Assistant/
-│   │── alexa_app.py             # Main application code
-│   │── micro.png                # Microphone button image
-│   │── requirements.txt         # Python dependencies
-│   │── README.md                # Project documentation
+├── Alexa-Voice-Assistant/
+│   ├── alexa_app.py              # Main application code
+│   ├── micro.png                 # Microphone button image
+│   ├── requirements.txt          # Python dependencies
+│   └── README.md                 # Project documentation
 │
-│── Password-Generator/
-│   │── password_generator.py    # Main application
-│   │── README.md                # Project documentation
+├── Password-Generator/
+│   ├── password_generator.py     # Main application
+│   └── README.md                 # Project documentation
 │
-│── Simple-Calculator/
-│   │── simple_calculator.py     # Main application
-│   │── README.md                # Project documentation
+├── Simple-Calculator/
+│   ├── simple_calculator.py      # Main application
+│   └── README.md                 # Project documentation
 │
-│── Scientific-Calculator/
-│   │── scientific_calculator.py # Main application
-│   │── README.md                # Project documentation
+├── Scientific-Calculator/
+│   ├── scientific_calculator.py  # Main application
+│   └── README.md                 # Project documentation
 │
-│── Temperature-Convertor/
-│   │── temperature_convertor.py # Main application code
-│   │── README.md                # Project documentation
+├── Temperature-Convertor/
+│   ├── temperature_convertor.py  # Main application code
+│   └── README.md                 # Project documentation
 │
-│── YouTube-Audio-Downloader/
-│   │── audio_downloader.py      # Main program file
-│   │── README.md                # Project documentation
+├── YouTube-Audio-Downloader/
+│   ├── audio_downloader.py       # Main program file
+│   └── README.md                 # Project documentation
 │
-│── YouTube-Video-Downloader/
-│   │── video_downloader.py      # Main application code
-│   │── README.md                # Project documentation
+├── YouTube-Video-Downloader/
+│   ├── video_downloader.py       # Main application code
+│   └── README.md                 # Project documentation
 │
-│── Txt-To-PDF-Generator/
-│   │── txt_to_pdf_generator.py  # Main application
-│   │── README.md                # Project documentation
+├── Txt-To-PDF-Generator/
+│   ├── txt_to_pdf_generator.py   # Main application
+│   └── README.md                 # Project documentation
 │
-│── README.md                    # Main repo documentation
+└── README.md                     # Main repo documentation
 
 ```
 
