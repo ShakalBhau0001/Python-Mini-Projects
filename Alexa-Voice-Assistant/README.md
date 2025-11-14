@@ -36,7 +36,7 @@ Alexa-Voice-Assistant/
 │── alexa_app.py        # Main application code
 │── micro.png           # Microphone button image
 │── requirements.txt    # Python dependencies
-│── README.md           # Project documentation
+└── README.md           # Project documentation
 ```
 
 ---
