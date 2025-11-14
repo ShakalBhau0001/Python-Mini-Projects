@@ -23,7 +23,7 @@ It supports basic arithmetic operations like addition, subtraction, multiplicati
 Simple-Calculator/
 │
 ├── simple_calculator.py    # Main application
-├── README.md               # Project documentation
+└── README.md               # Project documentation
 ```
 
 ---
