@@ -18,7 +18,7 @@ A simple GUI-based **YouTube Video Downloader** built using Python's `tkinter` f
 YouTube-Video-Downloader/
 |
 │── video_downloader.py        # Main application code
-│── README.md                  # Project documentation
+└── README.md                  # Project documentation
 ```
 
 ---
