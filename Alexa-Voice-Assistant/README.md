@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 Or manually:
 ```bash
-pip install pyttsx3 pywhatkit pyjokes wikipedia requests SpeechRecognition pillow
+pip install pyttsx3 pywhatkit pyjokes pyaudio wikipedia requests SpeechRecognition pillow
 ```
 
 ### 3. Run the App
