@@ -72,6 +72,7 @@ python alexa_app.py
 pyttsx3
 pywhatkit
 pyjokes
+pyaudio
 wikipedia
 requests
 SpeechRecognition
