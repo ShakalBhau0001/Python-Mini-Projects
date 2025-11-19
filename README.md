@@ -43,6 +43,10 @@ Python-Mini-Projects/
 │   ├── txt_to_pdf_generator.py   # Main application
 │   └── README.md                 # Project documentation
 │
+├── Date-Calculator/
+│   ├── date_calculator.py        # Main application
+│   └── README.md                 # Project documentation
+│
 └── README.md                     # Main repo documentation
 
 ```
@@ -90,6 +94,11 @@ Download YouTube videos in best available quality.
 ### 8. Txt to PDF Generator 📄
 Convert plain `.TXT` files into beautifully formatted **PDF documents** with automatic **Table of Contents** and **page numbering**. 
 **File:** `txt_to_pdf_generator.py`
+
+### 9. Date Calculator 📅
+Perform date-based calculations like: **Difference between two dates,Adding/subtracting days,Day-of-week finder
+**
+**File:** `date_calculator.py`
 
 ---
 
