@@ -96,8 +96,8 @@ Convert plain `.TXT` files into beautifully formatted **PDF documents** with aut
 **File:** `txt_to_pdf_generator.py`
 
 ### 9. Date Calculator 📅
-Perform date-based calculations like: **Difference between two dates,Adding/subtracting days,Day-of-week finder
-**
+Perform date-based calculations like: Difference between two dates,Adding/subtracting days,Day-of-week finder
+
 **File:** `date_calculator.py`
 
 ---
