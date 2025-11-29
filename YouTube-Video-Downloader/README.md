@@ -1,24 +1,58 @@
-# 🎥 YouTube Downloader (Tkinter + yt-dlp)
+# 🎥 YouTube Video Downloader (Python + Tkinter + yt-dlp)
 
-A simple GUI-based **YouTube Video Downloader** built using Python's `tkinter` for the interface and `yt-dlp` for handling video downloads.
-
----
-
-## 🚀 Features
-- Download YouTube videos in the **best available quality**.
-- Simple and user-friendly **GUI interface**.
-- Error handling for invalid or empty URLs.
-- Saves downloaded videos in the current working directory.
+A lightweight and user-friendly **YouTube Video Downloader** built using Python’s `tkinter` GUI and the powerful `yt-dlp` engine.
 
 ---
 
-## 📂 Project Structure
+## ✨ Features
+- 📥 Download YouTube videos in **best available quality**
+- 🎛 Simple & clean GUI interface
+- ⚡ Fast & reliable downloads using yt-dlp
+- 🛠 Error handling for invalid or empty URLs
+- 💾 Saves videos in the current working directory
+- 🔧 FFmpeg support for merging high-quality video + audio streams
+
+---
+
+## 📁 Project Structure
 
 ```
 YouTube-Video-Downloader/
-|
-│── video_downloader.py        # Main application code
-└── README.md                  # Project documentation
+│
+├── video_downloader.py
+└── README.md
+```
+
+---
+
+## 🛠 Prerequisites
+
+### 1️⃣ Install yt-dlp
+
+```bash
+pip install -U yt-dlp
+```
+
+### 2️⃣ Install FFmpeg (Required for merging video/audio)
+
+#### Windows FFmpeg Installation
+
+1. Download FFmpeg (Essentials build):  
+   https://www.gyan.dev/ffmpeg/builds/
+
+2. Extract to:
+```
+C:\ffmpeg\
+```
+
+3. Add FFmpeg to PATH:
+```
+C:\ffmpeg\bin
+```
+
+4. Verify installation:
+```bash
+ffmpeg -version
 ```
 
 ---
@@ -29,27 +63,30 @@ YouTube-Video-Downloader/
 
 ```bash
 git clone https://github.com/ShakalBhau0001/Python-Mini-Projects.git
-cd YouTube-Video-Downloader
+cd Python-Mini-Projects/YouTube-Video-Downloader
 ```
 
-### 2. Install Dependencies
-
-```bash
-pip install yt-dlp
-```
-
-3. Run the script:  
+### 2. Run the Script
 
 ```bash
 python video_downloader.py
 ```
-4. Enter a valid YouTube URL in the input box and click **Download**.
+
+### 3. Use the App
+- Enter any **valid YouTube URL**
+- Click **Download**
+- File will save automatically
+- Success or error message will appear
 
 ---
 
 ## ⚠️ Disclaimer
-This tool is for **educational purposes only**. Download videos only if you have the rights or permission to do so.
+This project is for **educational purposes only**.  
+Download videos only if you have rights or permission.
 
 ---
 
-💻 Developed with ❤️ using Python
+## ❤️ Developed By
+Made with ❤️ using **Python**, **Tkinter**, and **yt-dlp**
+
+---
