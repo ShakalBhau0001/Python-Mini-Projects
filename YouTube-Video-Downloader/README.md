@@ -37,15 +37,21 @@ pip install -U yt-dlp
 
 #### Windows FFmpeg Installation
 
+You can install FFmpeg using **two methods**: Manual download or Chocolatey.
+
+---
+
+### **Method 1: Manual Download**
+
 1. Download FFmpeg (Essentials build):  
    https://www.gyan.dev/ffmpeg/builds/
 
-2. Extract to:
+2. Extract the ZIP to:
 ```
 C:\ffmpeg\
 ```
 
-3. Add FFmpeg to PATH:
+3. Add FFmpeg to your PATH:
 ```
 C:\ffmpeg\bin
 ```
@@ -54,6 +60,27 @@ C:\ffmpeg\bin
 ```bash
 ffmpeg -version
 ```
+
+---
+
+### **Method 2: Install via Chocolatey**
+
+1. Open **PowerShell as Administrator** (Right click → Run as Administrator)
+
+2. Run the command:
+```powershell
+choco install ffmpeg-full -y
+```
+
+3. Wait for the download and installation to complete.
+
+4. Verify installation:
+```powershell
+ffmpeg -version
+```
+
+> ⚠️ Note: Chocolatey automatically adds FFmpeg to your PATH.  
+> If using `choco install ffmpeg` (lightweight version), the commands are the same.
 
 ---
 
