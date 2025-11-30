@@ -1,34 +1,85 @@
-# 🎥🎵 YouTube Audio/Video Downloader (Tkinter + yt-dlp)
+# 🎵 YouTube Audio Downloader (Tkinter + yt-dlp)
 
-A simple yet powerful GUI-based **YouTube Downloader** built with Python’s `tkinter` for the interface and `yt-dlp` for downloading content.  
-This tool allows you to download both **videos** 🎬 and **audio (MP3)** 🎵 directly from YouTube in just a few clicks.
+This is a simple GUI-based YouTube Audio Downloader built using Python’s
+tkinter library and yt-dlp. It allows users to easily download audio
+(MP3) from any YouTube video with just one click.
 
 ---
 
 ## ✨ Features
-- Download **YouTube videos** in the best available quality 🎥  
-- Download **audio only (MP3)** with automatic conversion 🎵  
-- User-friendly **GUI interface**  
-- Error handling for invalid or empty URLs  
-- Saves files in the **current working directory**  
+
+- Download audio (MP3) from YouTube
+- Simple and clean Tkinter GUI
+- One-click MP3 download button
+- Automatic audio extraction using FFmpeg
+- Shows success and error messages
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
 ```
 YouTube-Audio-Downloader/
-|
-│── audio_downloader.py     # Main program file
-└── README.md               # Project documentation
+│── audio_downloader.py
+└── README.md
 ```
 
 ---
 
-## 🛠️ Requirements
+## 🛠 Requirements
 
-⚡ For **audio extraction (MP3)**, you also need **FFmpeg**:  
-- [Download FFmpeg](https://ffmpeg.org/download.html)  
-- Ensure `ffmpeg` is added to your system PATH.  
+### 1️⃣ Install yt-dlp
+
+```bash
+pip install -U yt-dlp
+```
+
+### 2️⃣ Install FFmpeg
+
+You can install FFmpeg using **two methods**: Manual download or Chocolatey.
+
+---
+
+### **Method 1: Manual Download**
+
+1. Download FFmpeg (Essentials build):  
+   https://www.gyan.dev/ffmpeg/builds/
+
+2. Extract the ZIP to:
+```
+C:\ffmpeg\
+```
+
+3. Add FFmpeg to your PATH:
+```
+C:\ffmpeg\bin
+```
+
+4. Verify installation:
+```bash
+ffmpeg -version
+```
+
+---
+
+### **Method 2: Install via Chocolatey**
+
+1. Open **PowerShell as Administrator** (Right click → Run as Administrator)
+
+2. Run the command:
+```powershell
+choco install ffmpeg-full -y
+```
+
+3. Wait for the download and installation to complete.
+
+4. Verify installation:
+```powershell
+ffmpeg -version
+```
+
+> ⚠️ Note: Chocolatey automatically adds FFmpeg to your PATH.  
+> If using `choco install ffmpeg` (lightweight version), the commands are the same.
 
 ---
 
@@ -38,30 +89,30 @@ YouTube-Audio-Downloader/
 
 ```bash
 git clone https://github.com/ShakalBhau0001/Python-Mini-Projects.git
-cd YouTube-Audio-Downloader
+cd Python-Mini-Projects/YouTube-Audio-Downloader
 ```
 
-### 2. Install Dependencies
-
-```bash
-pip install yt-dlp
-```
-
-3. Install **FFmpeg** for audio conversion.  
-4. Run the script:  
+### 2. Run the Script
 
 ```bash
 python audio_downloader.py
 ```
 
-5. Paste a valid YouTube URL in the input box.  
-6. Click **Download Video 🎥** or **Download Audio 🎵**.  
+### 3. Use the App
+- Enter any **valid YouTube URL**
+- Click **Download**
+- File will save automatically
+- Success or error message will appear
 
 ---
 
 ## ⚠️ Disclaimer
-This tool is for **Educational Purposes Only**. Download content only if you have the rights or permission.  
+This project is for **educational purposes only**.  
+Download videos only if you have rights or permission.
 
 ---
 
-💻 Developed with ❤️ using Python + Tkinter + yt-dlp
+## ❤️ Developed By
+Made with ❤️ using **Python** + **Tkinter** + **yt-dlp** + **FFmpeg**
+
+---
