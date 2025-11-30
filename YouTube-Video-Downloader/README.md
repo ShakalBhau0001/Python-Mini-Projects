@@ -25,7 +25,7 @@ YouTube-Video-Downloader/
 
 ---
 
-## 🛠 Prerequisites
+## 🛠 Requirements
 
 ### 1️⃣ Install yt-dlp
 
