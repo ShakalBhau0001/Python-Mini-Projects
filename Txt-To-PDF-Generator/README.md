@@ -12,6 +12,7 @@ A simple yet elegant GUI tool to **convert any `.TXT` file into a well-formatted
 - 💬 Text wrapping for long lines
 - 🎨 Clean design and optimized window layout
 - 💥 Bold & colored headings detection (like `1.`, `2.` etc.)
+- 📝 Supports emojis and UTF-8 symbols (if `DejaVuSans.ttf` is available)
 
 ---
 
@@ -21,6 +22,7 @@ A simple yet elegant GUI tool to **convert any `.TXT` file into a well-formatted
 Txt-To-PDF-Generator/
 │
 ├── txt_to_pdf_generator.py   # Main application
+├── DejaVuSans.ttf            # Optional for emoji support
 └── README.md                 # Project documentation
 ```
 
@@ -37,6 +39,8 @@ pip install reportlab
 pip install pypdf
 pip install PyPDF2
 ```
+> Note: The code optionally uses `DejaVuSans.ttf` for emojis.
+> If this font is missing, it falls back to **Helvetica**, which may not display emojis correctly.
 
 ---
 
@@ -49,8 +53,9 @@ pip install PyPDF2
    cd Txt-To-PDF-Generator
    
    ```
+2. Make sure `DejaVuSans.ttf` is in the same folder as the script (optional for emoji support).
 
-2. Run the Python script:
+3. Run the Python script:
 
    ```bash
    python txt_to_pdf_generator.py
@@ -67,6 +72,7 @@ pip install PyPDF2
 - Automatically detects numbered headings (`1.`, `2.` …) and adds them to the **Table of Contents**.
 - Adds page numbers to each page.
 - Generates a new `.pdf` file in the same folder.
+- If `DejaVuSans.ttf` is present, emojis and UTF-8 symbols are displayed correctly.
 
 ---
 
@@ -82,7 +88,8 @@ Built with ❤️ by **[ShakalBhau0001](https://github.com/ShakalBhau0001)**
 - **Python 3**
 - **Tkinter** — GUI Interface  
 - **ReportLab** — PDF Generation  
-- **Pathlib** — File Handling  
+- **Pathlib** — File Handling
+- **PyPDF2** — PDF Manipulation
 
 ---
 
