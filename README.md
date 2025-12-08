@@ -1,10 +1,10 @@
-# Python-Mini-Projects
+## 🎯 Python-Mini-Projects
 
 Welcome to **Python Mini Projects**, a collection of small yet practical Python applications to help learners and enthusiasts practice programming and build useful tools. Each project is self-contained with its own main code file and README for instructions.
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 Python-Mini-Projects/
@@ -48,13 +48,18 @@ Python-Mini-Projects/
 │   ├── date_calculator.py        # Main application
 │   └── README.md                 # Project documentation
 │
+├── IP-Address-Tracker/
+│   ├── ip_address_tracker.py     # Main application
+│   └── README.md                 # Project documentation
+│
 └── README.md                     # Main repo documentation
+
 ```
 
 
 ---
 
-## Included Projects
+## 🧩 Included Projects
 
 ### 1. Alexa Voice Assistant 🎙️
 - A Python program that can take voice commands and perform tasks like searching Wikipedia, playing YouTube videos, telling jokes, and more.
@@ -102,6 +107,11 @@ Python-Mini-Projects/
 - Adding/subtracting days
 - Day-of-week finder
 - **File:** `date_calculator.py`
+
+### 10. IP Address Tracker 📍  
+- Track details of any IP address including location, ISP, region, and coordinates.  
+- Uses a public geolocation API for fetching live data.  
+- **File:** `ip_address_tracker.py`
 
 ---
 
